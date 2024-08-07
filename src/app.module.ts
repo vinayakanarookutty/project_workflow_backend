@@ -27,7 +27,7 @@ import { DesignModule } from './designer/designer.module';
         return schema;
       },
     }),
-    MongooseModule.forRoot(`mongodb://0.0.0.0:27017`),
+    MongooseModule.forRoot(`mongodb+srv://vinayaksukhalal:vinu123@cluster0.oxv3v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`),
     ProjectModule,
     DesignModule
   ],
